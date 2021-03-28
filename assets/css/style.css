@@ -1,0 +1,14 @@
+:root {
+    --dark-orange: #f27024;
+    --soft-orange: #ff863f;
+    --sherpa-blue: #00445c;
+    --paragraph-color: #404040;
+    --background-color: #efefef;
+    --title-color: #848484;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'gothic', sans-serif;
+}
+
