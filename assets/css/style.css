@@ -46,7 +46,7 @@ body {
     background-color: var(--dark-orange);
     background-image: url(/assets/images/shape.svg);
     background-repeat: no-repeat;
-    background-position-x: left -930px;
+    background-position: right 15% top -10px;
 }
 
 .flex-item .logo {
