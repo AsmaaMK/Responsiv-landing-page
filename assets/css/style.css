@@ -35,7 +35,7 @@ body {
 .nav-section {
     display: flex;
     flex-direction: column;
-    position: relative;
+
 }
 
 .flex-item {
@@ -73,14 +73,15 @@ body {
 }
 
 .visible {
-    display: block;
+    display: unset;
+    
 }
 
 nav {
-    position: absolute;
-    
     width: 100vw;
+    position: absolute;
     top: 70px;
+    z-index: 1;
 }
 
 nav a {
@@ -116,8 +117,31 @@ nav li:hover, nav li:focus {
     background-color: var(--soft-orange);
 }
 
-.low-opacity {
-    opacity: 50%;
+/* header section style */
+.header-section {
+    background-image: url(/assets/images/header-background.png);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 100px;
+    margin-bottom: 60px;
+}
+
+.header-section img {
+    position: absolute;
+    bottom: -40px;
+    background-color: var(--sherpa-blue);
+    padding: 15px;
+    width: 90px;
+    border: 8px solid white;
+    border-radius: 15px;
+}
+
+.header-section h2 {
+    margin: 0;
+    color: white;
+    font-size: 12px;
+    padding: 70px 0 10px 120px;
 }
 
 .article-img {
