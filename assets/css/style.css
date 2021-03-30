@@ -32,10 +32,16 @@ body {
     width: 60px;
 }
 
+header {
+    background-color: var(--dark-orange);
+    background-image: url(/assets/images/shape-mobile-version.svg);
+    background-repeat: no-repeat;
+    background-position: right 110px top -450px;
+}
+
 .nav-section {
     display: flex;
     flex-direction: column;
-
 }
 
 .flex-item {
@@ -43,10 +49,6 @@ body {
     height: 70px;
     padding-left: 10vw;
     align-items: center;
-    background-color: var(--dark-orange);
-    background-image: url(/assets/images/shape.svg);
-    background-repeat: no-repeat;
-    background-position: right 15% top -10px;
 }
 
 .flex-item .logo {
@@ -62,7 +64,7 @@ body {
 }
 
 .burger-icon {
-    width: 40px;
+    width: 35px;
     position: absolute;
     right: 10%;
     cursor: pointer;
@@ -75,13 +77,6 @@ body {
 .visible {
     display: unset;
     
-}
-
-nav {
-    width: 100vw;
-    position: absolute;
-    top: 70px;
-    z-index: 1;
 }
 
 nav a {
@@ -98,17 +93,14 @@ nav a {
 
 nav ul {
     list-style: none;
-    text-align: center;
+    text-align: right;
     margin: 0;
-    padding: 1em;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-    background-color: var(--dark-orange);
+    padding: 1em 10%;
 }
 
 nav li {
-    margin: .5em auto;
-    padding: .3em .5em;
+    margin: .5em 0 .5em auto;
+    padding: .3em 0;
     width: max-content;
     border-radius: 20px;
 }
@@ -144,6 +136,11 @@ nav li:hover, nav li:focus {
     padding: 70px 0 10px 120px;
 }
 
+/* ---------------
+    main style
+   --------------- */
+
 .article-img {
     max-width: 100%;
 }
+
