@@ -95,12 +95,12 @@ nav ul {
     list-style: none;
     text-align: right;
     margin: 0;
-    padding: 1em 10%;
+    padding: 1em calc(10% - .7em);
 }
 
 nav li {
     margin: .5em 0 .5em auto;
-    padding: .3em 0;
+    padding: .3em .7em;
     width: max-content;
     border-radius: 20px;
 }
@@ -121,11 +121,11 @@ nav li:hover, nav li:focus {
 
 .header-section img {
     position: absolute;
-    bottom: -40px;
+    bottom: -30px;
     background-color: var(--sherpa-blue);
     padding: 15px;
     width: 90px;
-    border: 8px solid white;
+    border: 6px solid white;
     border-radius: 15px;
 }
 
@@ -133,14 +133,117 @@ nav li:hover, nav li:focus {
     margin: 0;
     color: white;
     font-size: 12px;
-    padding: 70px 0 10px 120px;
+    padding: 70px 0 10px 105px;
 }
 
 /* ---------------
     main style
    --------------- */
 
+/* section 1 */
+
+.article-title {
+    color: var(--sherpa-blue);
+}
+
+p {
+    color: var(--paragraph-color);
+    line-height: 1.5em;
+}
+
+.title-span {
+    color: var(--dark-orange)
+}
+
 .article-img {
     max-width: 100%;
+    margin: 20px 0;
 }
+
+/* section 2 */
+
+.section-2 {
+    background: linear-gradient(180deg, var(--background-color) 50%, #FFF 50%);
+}
+
+button {
+    width: 100%;
+    border: 3px solid white;
+    padding: .7em;
+    margin: .5em 0;
+    background-color: var(--background-color);
+    color: var(--sherpa-blue);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover, button:focus {
+    color: var(--dark-orange);
+    background-color: white;
+    border-color: var(--background-color);
+}
+
+/* section 3 */
+
+.section-3 {
+    background-color: white;
+    padding: 50px 0;
+}
+
+.list-title {
+    color: var(--dark-orange);
+    font-size: 1.25rem;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.list {
+    padding-left: 12px;
+    color: var(--sherpa-blue);
+}
+
+.list li::marker {
+    content: "▶";
+    font-size: 10px;
+}
+
+.list li {
+    margin: 20px 0;
+    padding-left: 10px;
+    width: max-content;
+}
+
+.list a {
+    text-decoration: none;
+    color: var(--sherpa-blue);
+}
+
+.list a:hover, .list li:hover {
+    color: var(--dark-orange);
+}
+
+/* ---------------
+    footer style
+   --------------- */
+footer {
+    background-color: var(--sherpa-blue);
+}
+
+footer .flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    color: white;
+    justify-self: center;
+    margin-right: 30px;
+}
+
+footer img {
+    align-self: flex-start;
+}
+
+
+
 
