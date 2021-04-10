@@ -35,7 +35,7 @@ body {
 
 header {
     background-color: var(--dark-orange);
-    background-image: url(assets/images/shape-mobile-version.svg);
+    background-image: url(../images/shape-mobile-version.svg);
     background-repeat: no-repeat;
     background-position: right 110px top -450px;
 }
@@ -76,7 +76,6 @@ header .flex-container {
 
 .visible {
     display: unset;
-    
 }
 
 nav a {
@@ -108,8 +107,9 @@ nav li:hover, nav li:focus {
 }
 
 /* header section style */
+
 .header-section {
-    background-image: url(assets/images/header-background.png);    
+    background-image: url(../images/header-background.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -135,100 +135,9 @@ nav li:hover, nav li:focus {
 }
 
 /* ---------------
-    main style
-   --------------- */
-
-/* section 1 */
-
-.section-1 article {
-    display: flex;
-    flex-direction: column;
-}
-
-.article-title {
-    color: var(--sherpa-blue);
-}
-
-p {
-    color: var(--paragraph-color);
-    line-height: 1.5em;
-}
-
-.title-span {
-    color: var(--dark-orange)
-}
-
-.article-img {
-    max-width: 100%;
-    order: 2;
-}
-
-/* section 2 */
-
-.section-2 {
-    background: linear-gradient(180deg, var(--background-color) 50%, #FFF 50%);
-    margin-top: 50px;
-}
-
-button {
-    width: 100%;
-    border: 3px solid white;
-    padding: .7em;
-    margin: .5em 0;
-    background-color: var(--background-color);
-    color: var(--sherpa-blue);
-    font-weight: bold;
-    cursor: pointer;
-}
-
-button:hover, button:focus {
-    color: var(--dark-orange);
-    background-color: white;
-    border-color: var(--background-color);
-}
-
-/* section 3 */
-
-.section-3 {
-    background-color: white;
-    padding: 50px 0;
-}
-
-.list-title {
-    color: var(--dark-orange);
-    font-size: 1.25rem;
-    margin-top: 60px;
-    margin-bottom: 40px;
-}
-
-.list {
-    padding-left: 12px;
-    color: var(--sherpa-blue);
-}
-
-.list li::marker {
-    content: "▶";
-    font-size: 10px;
-}
-
-.list li {
-    margin: 20px 0;
-    padding-left: 10px;
-    width: max-content;
-}
-
-.list a {
-    text-decoration: none;
-    color: var(--sherpa-blue);
-}
-
-.list a:hover, .list li:hover {
-    color: var(--dark-orange);
-}
-
-/* ---------------
     footer style
    --------------- */
+
 footer {
     background-color: var(--sherpa-blue);
 }
@@ -251,56 +160,22 @@ footer img {
 /* ---------------
     tablet version
    --------------- */
-@media only screen and (min-width: 700px) {
 
+@media only screen and (min-width: 700px) {
     /* navbar */
-    header {    
+    header {
         background-position: right 250px top -450px;
     }
-
-    /* section-1 */
-    .section-1 .flex-container img {
-        float: right;
-        width: 45%;
-        max-width: 450px;
-        margin-left: 5%;
-        margin-bottom: 10px;
-    }
-
-    .section-1 article {
-        display: unset;
-    }
-
-    /* section-2 */
-    .section-2 .flex-container {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        column-gap: 30px;
-        
-    }
-
-    /* section-3 */
-    .section-3 .flex-container {
-        display: flex;
-    }
-
-    .section-3 h2 {
-        margin-top: 15px;
-    }
-
-    .section-3 .p-article {
-        margin-right: 30px;
-    }
 }
+
 /* ---------------
     desktop version
    --------------- */
 
 @media only screen and (min-width: 1200px) {
-
     /* navbar */
     header {
-        background-image: url(assets/images/shape.svg);
+        background-image: url(../images/shape.svg);
         background-position: left -650px top -10px;
     }
 
@@ -338,53 +213,5 @@ footer img {
     /* header section style */
     .header-section {
         background-position: left 0 top -160px;
-    }
-
-    /* section-1 */
-    .flex-container{
-        display: flex;
-    }
-
-    /* section-2 */
-    .section-2 .flex-container{
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .section-2 {
-        margin-top: 3em;
-    }
-
-    .section-2 button {
-        width: 300px;
-    }
-
-    button + button {
-        margin-left: 20px;
-    }
-
-    /* section-3 */
-    .section-3 .list-title {
-        margin-top: 15px;
-        margin-left: 15px;
-    }
-
-    .list-article {
-        margin-left: 70px;
-        flex: 4;
-    }
-
-    .p-article {
-        flex: 3;
-    }
-
-    .list {
-        display: grid;
-        grid-template-columns: 45% 45%;
-        column-gap: 10%;
-    }
-
-    .list li {
-        margin: .9em;
     }
 }
