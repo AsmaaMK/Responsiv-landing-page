@@ -145,3 +145,7 @@ span {
     top: -30px;
     left: calc(50vw - 100px);
 }
+
+p, ul {
+    line-height: 1.7em;
+}
