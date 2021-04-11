@@ -109,29 +109,11 @@ nav li:hover, nav li:focus {
 /* header section style */
 
 .header-section {
-    background-image: url(../images/header-background.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     min-height: 100px;
     margin-bottom: 60px;
-}
-
-.header-section img {
-    position: absolute;
-    bottom: -30px;
-    background-color: var(--sherpa-blue);
-    padding: 15px;
-    width: 90px;
-    border: 6px solid white;
-    border-radius: 15px;
-}
-
-.header-section h2 {
-    margin: 0;
-    color: white;
-    font-size: 12px;
-    padding: 70px 0 10px 105px;
 }
 
 /* ---------------

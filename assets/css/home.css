@@ -1,0 +1,16 @@
+/* header section style */
+
+.header-section {
+    background-image: url(../images/home-header-background.png);
+}
+
+.header-section h2 {
+    color: white;
+    text-align: center;
+    margin: 1em auto;
+    line-height: 1.5em;
+}
+
+span {
+    color: var(--dark-orange);
+}
