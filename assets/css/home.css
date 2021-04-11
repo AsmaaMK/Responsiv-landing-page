@@ -2,6 +2,7 @@
 
 .header-section {
     background-image: url(../images/home-header-background.png);
+    background-position: right 0% top 50%;
 }
 
 .header-section h2 {
@@ -13,4 +14,134 @@
 
 span {
     color: var(--dark-orange);
+}
+
+/* cards section style */
+
+.cards-section .card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 120px auto;
+    position: relative;
+    max-width: 400px;
+}
+
+.cards-section .card img {
+    position: absolute;
+    width: 100px;
+    left: min(150px ,calc(40vw - 50px));
+    top: -50px;
+}
+
+.cards-section .card h2 {
+    margin: 40px auto 0;
+    text-align: center;
+    color: var(--sherpa-blue);
+}
+
+.cards-section .card p {
+    color: var(--paragraph-color);
+    margin-bottom: 30px;
+}
+
+.cards-section .card button {
+    position: absolute;
+    width: 140px;
+    text-transform: uppercase;
+    border-radius: 60px;
+    border: none;
+    background-color: var(--dark-orange);
+    color: white;
+    padding: 5px;
+    left: min(130px ,calc(40vw - 70px));
+}
+
+.cards-section .card ul {
+    color: var(--paragraph-color);
+    list-style: square;
+    margin-bottom: 30px;
+    padding: 12px;
+}
+
+.cards-section .card li::marker {
+    color: var(--dark-orange);
+    font-size: 12px;
+}
+
+/* training section style */
+
+.training-section {
+    background-color: #fff;
+    background-image: url(../images/training-section-background.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 100px;
+}
+
+.training-section-title {
+    text-align: center;
+}
+
+.training-section-title img {
+    margin-top: 60px;
+    width: 50px;
+}
+
+.training-section-title h1 {
+    color: var(--sherpa-blue);
+    font-size: 2rem;
+}
+
+.training-section-title p {
+    color: var(--paragraph-color);
+    border: .5px rgb(230, 229, 229) solid;
+    padding: 10px;
+}
+
+.training-card {
+    display: flex;
+    align-items: center;
+    min-height: 200px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.training-card img {
+    margin-right: 20px;
+    width: 60px;
+}
+
+.training-card h2 {
+    color: var(--dark-orange);
+    font-size: 1.2rem;
+}
+
+.training-card p {
+    color: var(--paragraph-color);
+}
+
+.training-card button {
+    background-color: #fff;
+    color: var(--sherpa-blue);
+    border: var(--sherpa-blue) .5px solid;
+    padding: 5px 15px;
+    margin-bottom: 40px;
+}
+
+/* location section style */
+
+.location-section {
+    height: 250px;
+    background-image: url(../images/map.png);
+    background-size: 150%;
+    background-position: -200px -50px;
+    position: relative;
+}
+
+.location-section img {
+    width: 200px;
+    position: absolute;
+    top: -30px;
+    left: calc(50vw - 100px);
 }
