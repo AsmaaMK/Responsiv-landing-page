@@ -9,7 +9,11 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'gothic', sans-serif;
+    font-family: sans-serif;
+}
+
+p, ul {
+    line-height: 1.7em;
 }
 
 body {
@@ -56,7 +60,7 @@ header .flex-container {
 }
 
 #title {
-    font-size: .6rem;
+    font-size: .8rem;
     font-family: sans-serif;
     line-height: 1.5em;
     padding: 0 1em;
@@ -95,15 +99,15 @@ nav li {
     padding: .3em .7em;
     width: max-content;
     border-radius: 20px;
+    font-weight: bold;
 }
 
 nav li:hover, nav li:focus {
-    font-weight: bold;
+    background-color: var(--soft-orange);
 }
 
 .active {
     background-color: var(--soft-orange);
-    font-weight: bold;
 }
 
 /* header section style */
@@ -189,7 +193,7 @@ footer img {
     }
 
     nav li {
-        margin: 0;
+        margin: 0 .25em;
     }
     
     /* header section style */

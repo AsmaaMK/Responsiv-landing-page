@@ -164,10 +164,6 @@ span {
     left: calc(50vw - 100px);
 }
 
-p, ul {
-    line-height: 1.7em;
-}
-
 @media screen and (min-width: 1000px) {
 
     .cards-section .flex-container {
