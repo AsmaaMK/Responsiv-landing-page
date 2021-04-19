@@ -31,7 +31,7 @@ body {
 /* nevbar */
 
 .logo {
-    width: 60px;
+    max-width: 60px;
 }
 
 header {
@@ -135,11 +135,13 @@ footer .flex-container {
 footer p {
     color: white;
     justify-self: center;
-    margin-right: 30px;
+    margin-right: 15px;
+    font-size: 11px;
 }
 
 footer img {
     align-self: flex-start;
+    width: 25%;
 }
 
 /* ---------------
@@ -150,6 +152,10 @@ footer img {
     /* navbar */
     header {
         background-position: right 250px top -450px;
+    }
+
+    footer p {
+        font-size: 1rem;
     }
 }
 
