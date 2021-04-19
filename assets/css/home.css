@@ -151,9 +151,6 @@ span {
 
 .location-section {
     height: 250px;
-    background-image: url(../images/map.png);
-    background-size: 150%;
-    background-position: -200px -50px;
     position: relative;
 }
 
@@ -162,6 +159,12 @@ span {
     position: absolute;
     top: -30px;
     left: calc(50vw - 100px);
+}
+
+.location-section iframe {
+    width: 100%;
+    height: inherit;
+    border: 0;
 }
 
 @media screen and (min-width: 1000px) {
