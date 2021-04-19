@@ -2,6 +2,7 @@
 
 .header-section {
     background-image: url(../images/header-background.png);
+    background-position: right 0 top 100%;
 }
 
 .header-section img {
