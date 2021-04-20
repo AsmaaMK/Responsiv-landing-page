@@ -69,7 +69,7 @@ button {
     cursor: pointer;
 }
 
-button:hover, button:focus {
+.active-tab, button:hover {
     color: var(--dark-orange);
     background-color: white;
     border-color: var(--background-color);
@@ -79,9 +79,23 @@ button:hover, button:focus {
 
 .section-3 {
     background-color: white;
-    padding: 50px 0;
+    /* padding: 50px 0; */
+    display: grid;
 }
 
+#tab-1, #tab-2, #tab-3, #tab-4 {
+    grid-row: 1;
+    grid-column: 1;
+    background-color: white;
+}
+
+#tab-2, #tab-3, #tab-4 {
+    z-index: -1;
+    display: flex;
+    align-items: center;
+}
+
+/* tab 1 */
 .list-title {
     color: var(--dark-orange);
     font-size: 1.25rem;
@@ -90,8 +104,11 @@ button:hover, button:focus {
 }
 
 .list {
-    padding-left: 12px;
     color: var(--sherpa-blue);
+}
+
+#tab-1 .list {
+    padding-left: 12px;
 }
 
 .list li::marker {
@@ -114,6 +131,28 @@ button:hover, button:focus {
     color: var(--dark-orange);
 }
 
+/* tab 2 */
+#tab-2 ul {
+    padding-left: 10px;
+    display: block;
+}
+
+#tab-2 .list-title{
+    margin-top: 0;
+}
+
+#tab-2 ul {
+    margin-bottom: 70px;
+}
+
+#tab-2, #tab-4 {
+    flex-direction: column;
+}
+
+/* tab 4 */
+#tab-4 ul {
+    padding-left: 10px;
+}
 
 /* ---------------
     tablet version
@@ -185,13 +224,15 @@ button:hover, button:focus {
     }
 
     /* section-3 */
+    .section-3 {
+        padding: 50px 0;
+    }
     .section-3 .list-title {
         margin-top: 15px;
         margin-left: 15px;
     }
 
     .list-article {
-        margin-left: 70px;
         flex: 4;
     }
 
@@ -207,5 +248,9 @@ button:hover, button:focus {
 
     .list li {
         margin: .9em;
+    }
+
+    #tab-2, #tab-4 {
+        flex-direction: row;
     }
 }
