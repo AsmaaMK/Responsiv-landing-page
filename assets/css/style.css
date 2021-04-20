@@ -39,6 +39,10 @@ header {
     background-image: url(../images/shape-mobile-version.svg);
     background-repeat: no-repeat;
     background-position: right 110px top -450px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
 }
 
 header .flex-container {
@@ -57,7 +61,7 @@ header .flex-container {
 }
 
 #title {
-    font-size: .8rem;
+    font-size: .7rem;
     font-family: sans-serif;
     line-height: 1.5em;
     padding: 0 1em;
@@ -77,6 +81,14 @@ header .flex-container {
 
 .visible {
     display: unset;
+}
+
+.low-opacity {
+    opacity: 20%;
+}
+
+.high-opacity {
+    opacity: 100%;
 }
 
 nav a {
@@ -115,7 +127,7 @@ nav li:hover, nav li:focus {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    min-height: 100px;
+    min-height: 200px;
     margin-bottom: 60px;
 }
 

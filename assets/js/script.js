@@ -2,6 +2,7 @@
 
 const list = document.querySelector('.invisible');
 const toggle_btn = document.querySelector('.burger-icon');
+const sections = document.getElementsByClassName('high-opacity');
 
 toggle_btn.addEventListener('click', () => {
     list.classList.toggle('visible');
@@ -13,7 +14,7 @@ toggle_btn.addEventListener('click', () => {
 for (let i = 1; i <= 4; i++) {
     const btn = document.getElementById('tab' + i);
     
-    btn.addEventListener('click', function() {
+    btn.addEventListener('click', () => {
         // deactivate all tabs 
         for (let j = 1; j <= 4; j++) {
             const tab = document.getElementById('tab-' + j);
