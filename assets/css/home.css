@@ -119,9 +119,52 @@ span {
     margin: 20px auto;
 }
 
-.training-card img {
+.icon1, .icon2, .icon3, .icon4 {
     margin-right: 20px;
-    width: 60px;
+    max-width: 72px;
+    max-height: 120px;
+    min-width: 72px;
+    min-height: 120px;
+    width: 72px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon1 {
+    background-image: url('../images/icon1.svg');
+}
+
+.icon1:hover {
+    background-image: url('../images/icon1-hover.svg');
+    cursor: pointer;
+}
+
+.icon2 {
+    background-image: url('../images/icon2.svg');
+}
+
+.icon2:hover {
+    background-image: url('../images/icon2-hover.svg');
+    cursor: pointer;
+}
+
+.icon3 {
+    background-image: url('../images/icon3.svg');
+}
+
+.icon3:hover {
+    background-image: url('../images/icon3-hover.svg');
+    cursor: pointer;
+}
+
+.icon4 {
+    background-image: url('../images/icon4.svg');
+}
+
+.icon4:hover {
+    background-image: url('../images/icon4-hover.svg');
+    cursor: pointer;
 }
 
 .training-card h2 {
@@ -146,7 +189,6 @@ span {
 .training-card button:focus {
     background-color: var(--sherpa-blue);
     color: white;
-    font-weight: bold;
 }
 
 /* location section style */

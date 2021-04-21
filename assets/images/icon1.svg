@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="118" viewBox="0 0 70 118">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #efefef;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #00445c;
+      }
+
+      .cls-3 {
+        fill: #f87021;
+      }
+    </style>
+  </defs>
+  <path id="Rounded_Rectangle_10" data-name="Rounded Rectangle 10" class="cls-1" d="M150,1207c19.33,0,35,16.57,35,37v44c0,20.43-15.67,37-35,37s-35-16.57-35-37v-44C115,1223.57,130.67,1207,150,1207Z" transform="translate(-115 -1207)"/>
+  <g>
+    <g>
+      <path id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-2" d="M145.916,1254h9.332a1.666,1.666,0,0,1,1.637,1.69v5.24a1.658,1.658,0,0,1-1.637,1.68h-9.332a1.658,1.658,0,0,1-1.637-1.68v-5.24A1.666,1.666,0,0,1,145.916,1254Z" transform="translate(-115 -1207)"/>
+      <path id="Rounded_Rectangle_1_copy" data-name="Rounded Rectangle 1 copy" class="cls-2" d="M159.6,1271.74h8a1.408,1.408,0,0,1,1.4,1.42v4.42a1.414,1.414,0,0,1-1.4,1.42h-8a1.414,1.414,0,0,1-1.4-1.42v-4.42A1.408,1.408,0,0,1,159.6,1271.74Z" transform="translate(-115 -1207)"/>
+      <path id="Rounded_Rectangle_1_copy_2" data-name="Rounded Rectangle 1 copy 2" class="cls-2" d="M146.664,1271.74h8a1.408,1.408,0,0,1,1.4,1.42v4.42a1.414,1.414,0,0,1-1.4,1.42h-8a1.414,1.414,0,0,1-1.4-1.42v-4.42A1.408,1.408,0,0,1,146.664,1271.74Z" transform="translate(-115 -1207)"/>
+      <path id="Rounded_Rectangle_1_copy_3" data-name="Rounded Rectangle 1 copy 3" class="cls-2" d="M133.4,1271.74h8a1.408,1.408,0,0,1,1.4,1.42v4.42a1.414,1.414,0,0,1-1.4,1.42h-8a1.414,1.414,0,0,1-1.4-1.42v-4.42A1.408,1.408,0,0,1,133.4,1271.74Z" transform="translate(-115 -1207)"/>
+    </g>
+    <g>
+      <path id="Rounded_Rectangle_2" data-name="Rounded Rectangle 2" class="cls-3" d="M137.484,1265.99h26.195a0.955,0.955,0,0,1,0,1.86H137.484A0.956,0.956,0,0,1,137.484,1265.99Z" transform="translate(-115 -1207)"/>
+      <path id="Rounded_Rectangle_3" data-name="Rounded Rectangle 3" class="cls-3" d="M163.679,1265.99a0.919,0.919,0,0,1,.9.93v3.21a0.9,0.9,0,1,1-1.8,0v-3.21A0.918,0.918,0,0,1,163.679,1265.99Z" transform="translate(-115 -1207)"/>
+      <path id="Rounded_Rectangle_3_copy" data-name="Rounded Rectangle 3 copy" class="cls-3" d="M150.582,1263.29a0.918,0.918,0,0,1,.9.93v5.91a0.9,0.9,0,1,1-1.8,0v-5.91A0.918,0.918,0,0,1,150.582,1263.29Z" transform="translate(-115 -1207)"/>
+      <path id="Rounded_Rectangle_3_copy_2" data-name="Rounded Rectangle 3 copy 2" class="cls-3" d="M137.321,1265.99a0.918,0.918,0,0,1,.9.93v3.21a0.9,0.9,0,1,1-1.8,0v-3.21A0.918,0.918,0,0,1,137.321,1265.99Z" transform="translate(-115 -1207)"/>
+    </g>
+  </g>
+</svg>
