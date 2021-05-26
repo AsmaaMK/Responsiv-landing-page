@@ -202,10 +202,6 @@ button {
 
 @media only screen and (min-width: 1200px) {
 
-    .header-section h2 {
-        left: calc(10% + 135px);
-    }
-
     /* section-1 */
     .flex-container{
         display: flex;
@@ -258,5 +254,11 @@ button {
 
     #tab-2, #tab-4 {
         flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 1625px) {
+    .header-section h2 {
+        left: calc(((100vw - 1300px) / 2) + 110px);
     }
 }
