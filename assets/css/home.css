@@ -1,245 +1,250 @@
 /* header section style */
 
 .header-section {
-    background-image: url(../images/home-header-background.png);
-    background-position: right 0 top 150%;
+  background-image: url(../images/home-header-background.png);
+  background-position: right 0 top 150%;
 }
 
 .header-section h2 {
-    color: white;
-    text-align: center;
-    margin: 1em auto;
-    line-height: 1.5em;
-    padding-top: 80px;
-    font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  margin: 1em auto;
+  line-height: 1.5em;
+  padding-top: 80px;
+  font-size: 1.2rem;
 }
 
 span {
-    color: var(--dark-orange);
+  color: var(--dark-orange);
 }
 
 /* cards section style */
 
 .cards-section .card {
-    background-color: white;
-    border-radius: 15px;
-    padding: 20px;
-    margin: 120px auto;
-    position: relative;
-    max-width: 300px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 120px 20px;
+  position: relative;
+  max-width: 300px;
 }
 
 .cards-section .card img {
-    position: absolute;
-    width: 100px;
-    left: min(100px ,calc(40vw - 50px));
-    top: -50px;
+  position: absolute;
+  width: 100px;
+  left: calc(50% - 50px);
+  top: -50px;
 }
 
 .cards-section .card h2 {
-    margin: 40px auto 0;
-    text-align: center;
-    color: var(--sherpa-blue);
+  margin: 40px auto 0;
+  text-align: center;
+  color: var(--sherpa-blue);
 }
 
 .cards-section .card p {
-    color: var(--paragraph-color);
-    margin-bottom: 30px;
+  color: var(--paragraph-color);
+  margin-bottom: 30px;
 }
 
 .cards-section .card button {
-    position: absolute;
-    width: 140px;
-    text-transform: uppercase;
-    border-radius: 60px;
-    border: none;
-    background-color: var(--dark-orange);
-    color: white;
-    padding: 7px;
-    left: min(80px ,calc(40vw - 70px));
-    bottom: -17px;
-    cursor: pointer;
+  position: absolute;
+  width: 140px;
+  text-transform: uppercase;
+  border-radius: 60px;
+  border: none;
+  background-color: var(--dark-orange);
+  color: white;
+  padding: 7px;
+  left: calc(50% - 70px);
+  bottom: -17px;
+  cursor: pointer;
 }
 
-.cards-section .card button:hover , .cards-section .card button:focus {
-    color: var(--dark-orange);
-    border: var(--dark-orange) 2px solid;
-    background-color: #fff;
-    font-weight: bold;
+.cards-section .card button:hover,
+.cards-section .card button:focus {
+  color: var(--dark-orange);
+  border: var(--dark-orange) 2px solid;
+  background-color: #fff;
+  font-weight: bold;
 }
 
 .cards-section .card ul {
-    color: var(--paragraph-color);
-    list-style: square;
-    margin-bottom: 30px;
-    padding: 12px;
+  color: var(--paragraph-color);
+  list-style: square;
+  margin-bottom: 30px;
+  padding: 12px;
 }
 
 .cards-section .card li::marker {
-    color: var(--dark-orange);
-    font-size: 12px;
+  color: var(--dark-orange);
+  font-size: 12px;
 }
 
 /* training section style */
 
 .training-section {
-    background-color: #fff;
-    background-image: url(../images/training-section-background.svg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding-bottom: 100px;
+  background-color: #fff;
+  background-image: url(../images/training-section-background.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 100px;
 }
 
 .training-section-title {
-    text-align: center;
+  text-align: center;
 }
 
 .training-section-title img {
-    margin-top: 60px;
-    width: 50px;
+  margin-top: 60px;
+  width: 50px;
 }
 
 .training-section-title h1 {
-    color: var(--sherpa-blue);
-    font-size: 2rem;
+  color: var(--sherpa-blue);
+  font-size: 2rem;
 }
 
 .training-section-title p {
-    color: var(--paragraph-color);
-    border: .5px rgb(230, 229, 229) solid;
-    padding: 10px;
-    margin-bottom: 50px;
+  color: var(--paragraph-color);
+  border: 0.5px rgb(230, 229, 229) solid;
+  padding: 10px;
+  margin-bottom: 50px;
 }
 
 .training-card {
-    display: flex;
-    align-items: center;
-    min-height: 200px;
-    max-width: 500px;
-    margin: 20px auto;
+  display: flex;
+  align-items: center;
+  min-height: 200px;
+  max-width: 500px;
+  margin: 20px auto;
 }
 
-.icon1, .icon2, .icon3, .icon4 {
-    margin-right: 20px;
-    max-width: 72px;
-    max-height: 120px;
-    min-width: 72px;
-    min-height: 120px;
-    width: 72px;
-    height: 120px;
-    background-repeat: no-repeat;
-    background-size: cover;
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+  margin-right: 20px;
+  max-width: 72px;
+  max-height: 120px;
+  min-width: 72px;
+  min-height: 120px;
+  width: 72px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .icon1 {
-    background-image: url('../images/icon1.svg');
+  background-image: url("../images/icon1.svg");
 }
 
 .icon1:hover {
-    background-image: url('../images/icon1-hover.svg');
-    cursor: pointer;
+  background-image: url("../images/icon1-hover.svg");
+  cursor: pointer;
 }
 
 .icon2 {
-    background-image: url('../images/icon2.svg');
+  background-image: url("../images/icon2.svg");
 }
 
 .icon2:hover {
-    background-image: url('../images/icon2-hover.svg');
-    cursor: pointer;
+  background-image: url("../images/icon2-hover.svg");
+  cursor: pointer;
 }
 
 .icon3 {
-    background-image: url('../images/icon3.svg');
+  background-image: url("../images/icon3.svg");
 }
 
 .icon3:hover {
-    background-image: url('../images/icon3-hover.svg');
-    cursor: pointer;
+  background-image: url("../images/icon3-hover.svg");
+  cursor: pointer;
 }
 
 .icon4 {
-    background-image: url('../images/icon4.svg');
+  background-image: url("../images/icon4.svg");
 }
 
 .icon4:hover {
-    background-image: url('../images/icon4-hover.svg');
-    cursor: pointer;
+  background-image: url("../images/icon4-hover.svg");
+  cursor: pointer;
 }
 
 .training-card h2 {
-    color: var(--dark-orange);
-    font-size: 1.2rem;
+  color: var(--dark-orange);
+  font-size: 1.2rem;
 }
 
 .training-card p {
-    color: var(--paragraph-color);
+  color: var(--paragraph-color);
 }
 
 .training-card button {
-    background-color: #fff;
-    color: var(--sherpa-blue);
-    border: var(--sherpa-blue) 1px solid;
-    padding: 5px 15px;
-    margin-bottom: 40px;
-    cursor: pointer;
+  background-color: #fff;
+  color: var(--sherpa-blue);
+  border: var(--sherpa-blue) 1px solid;
+  padding: 5px 15px;
+  margin-bottom: 40px;
+  cursor: pointer;
 }
 
-.training-card button:hover, 
+.training-card button:hover,
 .training-card button:focus {
-    background-color: var(--sherpa-blue);
-    color: white;
+  background-color: var(--sherpa-blue);
+  color: white;
 }
 
 /* location section style */
 
 .location-section {
-    height: 250px;
-    position: relative;
+  height: 250px;
+  position: relative;
 }
 
 .location-section img {
-    width: 200px;
-    position: absolute;
-    top: -30px;
-    left: calc(50vw - 100px);
+  width: 200px;
+  position: absolute;
+  top: -30px;
+  left: calc(50vw - 100px);
 }
 
 .location-section iframe {
-    width: 100%;
-    height: inherit;
-    border: 0;
+  width: 100%;
+  height: inherit;
+  border: 0;
+}
+
+.cards-section .flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 @media screen and (min-width: 1000px) {
+  .header-section h2 {
+    font-size: 1.5rem;
+  }
 
-    .header-section h2 {
-        font-size: 1.5rem;
-    }
+  .cards-section .card {
+    margin-top: 50px;
+  }
 
-    .cards-section .flex-container {
-        display: flex;
-    }
+  .training-cards {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 10%;
+    align-items: flex-start;
+  }
 
-    .cards-section .card {
-        margin-top: 50px;
-    }
+  .flex-cont {
+    width: 45vw;
+  }
 
-    .training-cards  {
-        display: grid;
-        grid-template-columns: 45% 45%;
-        column-gap: 10%;
-        align-items: flex-start;
-    }
-
-    .flex-cont {
-        width: 45vw;
-    }
-
-    /* location section */
-    .location-section {
-        background-size: 100%;
-        background-position: 150px;
-        height: 350px;
-    }
+  /* location section */
+  .location-section {
+    background-size: 100%;
+    background-position: 150px;
+    height: 350px;
+  }
 }
